@@ -17,41 +17,26 @@ It is worth pointing out the first type of videos and images are most well known
 
 ## Table of Contents
 
-* [Deepfake Videos and Images](#deepfake-videos-and-images)
-  * [Generation Papers](#generation-papers)
-  * [Generation Codes](#generation-codes)
-  * [Detection Papers](#detection-papers)
-  * [Detection Codes](#detection-codes)
-  * [Datasets and Challenges](#datasets-and-challenges)
-  * [General Online Articles of Deepfake Videos](#general-online-articles-of-deepfake-videos)
-* [Deepfake Texts](#deepfake-texts)
-  * [Papers Mainly on Detection](#papers-mainly-on-detection)
-  * [Codes Mainly on Detection](#codes-mainly-on-detection)
-  * [General Online Articles of Neural Fake News](#general-online-articles-of-neural-fake-news)
-* [Deepfake Voices](#deepfake-voices)
-  * [Papers Mainly on Generation](#papers-mainly-on-generation)
-  * [Codes Mainly on Generation](#codes-mainly-on-generation)
-  * [General Online Articles of Deepfake Voices](#general-online-articles-of-deepfake-voices)
+* [Introduction](#introduction)
+  * [Key Concepts](#generation-papers)
+  * [General Architecture](#generation-codes)
+  * [General Online Articles of Deepfakes](#general-online-articles-of-deepfakes)
+* [Attack Generation](#attack-generation)
+  * [Fake Audio Generation](#fake-audio-generation)
+  * [Relevant Tools](#relevant-tools)
+* [Defense](#defense)
+  * [Deepfake Detection](#deepfake-detection)
+  * [Attacking Deepfake Generator](#attacking-deepfake-generator)
+* [Datasets and Challenges](#datasets-and-challenges)
+* [Social Impacts](#social-impacts)
+  * [Government Responses](#government-responses)
+  * [Potential Threatened Scenarios](#potential-threatened-scenarios)
   
 
 
-## Deepfake Videos and Images
+### Introduction
 
 
-### Generation Papers
-* [HeadOn: Real-time Reenactment of Human Portrait Videos](https://arxiv.org/abs/1805.11729)
-* [Face2Face: Real-time Face Capture and Reenactment of RGB Videos](https://web.stanford.edu/~zollhoef/papers/CVPR2016_Face2Face/paper.pdf)
-* [Synthesizing Obama: Learning Lip Sync from Audio](https://grail.cs.washington.edu/projects/AudioToObama/siggraph17_obama.pdf)
-
-
-### Generation Codes
-* [FaceSwap](https://github.com/deepfakes/faceswap)
-* [Faceswap-GAN](https://github.com/shaoanlu/faceswap-GAN)
-* [faceswap-pytorch](https://github.com/Oldpan/Faceswap-Deepfake-Pytorch)
-* [faceswap-pytorch2](https://github.com/jinfagang/faceswap_pytorch)
-* [DeepFaceLab](https://github.com/iperov/DeepFaceLab)
-* [face2face](https://github.com/datitran/face2face-demo)
-* [Synthesizing Obama](https://github.com/supasorn/synthesizing_obama_network_training)
  
 
 ### Detection Papers
@@ -100,7 +85,7 @@ It is worth pointing out the first type of videos and images are most well known
 
 
 
-### General Online Articles of Deepfake Videos
+### General Online Articles of Deepfakes
 
 * [Deepfake: The Good, The Bad and the Ugly - Medium](https://medium.com/twentybn/deepfake-the-good-the-bad-and-the-ugly-8b261ecf0f52)
 * [DeepFakes: AI-powered deception machines](http://www.computervisionblog.com/2018/05/deepfakes-ai-powered-deception-machines.html)
