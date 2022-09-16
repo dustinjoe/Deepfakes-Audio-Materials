@@ -18,8 +18,8 @@ It is worth pointing out the first type of videos and images are most well known
 ## Table of Contents
 
 * [Introduction](#introduction)
-  * [Key Concepts](#generation-papers)
-  * [General Architecture](#generation-codes)
+  * [Key Concepts](#key-concepts)
+  * [General Architecture](#general-architecture)
   * [General Online Articles of Deepfakes](#general-online-articles-of-deepfakes)
 * [Attack Generation](#attack-generation)
   * [Fake Audio Generation](#fake-audio-generation)
@@ -34,7 +34,7 @@ It is worth pointing out the first type of videos and images are most well known
   
 
 
-### Introduction
+## Introduction
 
 
  
@@ -74,13 +74,7 @@ It is worth pointing out the first type of videos and images are most well known
 * [Vulnerability assessment and detection of Deepfake videos](https://gitlab.idiap.ch/bob/bob.report.deepfakes)
 
 
-### Datasets and Challenges
 
-* [FaceForensics++](https://github.com/ondyari/FaceForensics)
-* [Celeb-DF](http://www.cs.albany.edu/~lsw/celeb-deepfakeforensics.html)
-* [Deepfakes detection challenge by Facebook, Microsoft, etc.](https://ai.facebook.com/blog/deepfake-detection-challenge?from=timeline&isappinstalled=0)
-* [DeepfakeTIMIT](https://www.idiap.ch/dataset/deepfaketimit)
-* [Kaggle Deepfake Detection Challenge](https://www.kaggle.com/c/deepfake-detection-challenge/overview?utm_medium=email&utm_source=intercom&utm_campaign=deepfake-competition-2019)
 
 
 
@@ -123,3 +117,13 @@ It is worth pointing out the first type of videos and images are most well known
 ### General Online Articles of Deepfake Voices
 * [You can now speak using someone else’s voice with Deep Learning](https://towardsdatascience.com/you-can-now-speak-using-someone-elses-voice-with-deep-learning-8be24368fa2b)
 * [A Voice Deepfake Was Used To Scam A CEO Out Of $243,000](https://www.forbes.com/sites/jessedamiani/2019/09/03/a-voice-deepfake-was-used-to-scam-a-ceo-out-of-243000/)
+
+
+
+## Datasets and Challenges
+
+* [FaceForensics++](https://github.com/ondyari/FaceForensics)
+* [Celeb-DF](http://www.cs.albany.edu/~lsw/celeb-deepfakeforensics.html)
+* [Deepfakes detection challenge by Facebook, Microsoft, etc.](https://ai.facebook.com/blog/deepfake-detection-challenge?from=timeline&isappinstalled=0)
+* [DeepfakeTIMIT](https://www.idiap.ch/dataset/deepfaketimit)
+* [Kaggle Deepfake Detection Challenge](https://www.kaggle.com/c/deepfake-detection-challenge/overview?utm_medium=email&utm_source=intercom&utm_campaign=deepfake-competition-2019)
