@@ -20,7 +20,7 @@ It is worth pointing out the first type of videos and images are most well known
 * [Introduction](#introduction)
   * [Key Concepts](#key-concepts)
   * [General Architecture](#general-architecture)
-  * [General Online Articles of Deepfakes](#general-online-articles-of-deepfakes)
+  * [Online Articles of Deepfakes](#online-articles-of-deepfakes)
 * [Attack Generation](#attack-generation)
   * [Fake Audio Generation](#fake-audio-generation)
   * [Relevant Tools](#relevant-tools)
@@ -36,50 +36,11 @@ It is worth pointing out the first type of videos and images are most well known
 
 ## Introduction
 
+### Key Concepts
 
- 
+### General Architecture
 
-### Detection Papers
-
-* Review and General Papers
-  * [Deep Learning for Deepfakes Creation and Detection](https://arxiv.org/abs/1909.11573)
-  * [DeepFakes and Beyond: A Survey of Face Manipulation and Fake Detection](https://arxiv.org/abs/2001.00179)
-  * [Media Forensics and DeepFakes: an overview](https://arxiv.org/abs/2001.06564)
-  * [Will Deepfakes Do Deep Damage?](https://cacm.acm.org/magazines/2020/1/241708-will-deepfakes-do-deep-damage/fulltext)
-
-
-* Relying on Artifacts
-  * [Exposing DeepFake Videos By Detecting Face Warping Artifacts](https://arxiv.org/abs/1811.00656)
-  * [Exposing Deep Fakes Using Inconsistent Head Poses](https://arxiv.org/abs/1811.00661)
-  * [In Ictu Oculi: Exposing AI Generated Fake Face Videos by Detecting Eye Blinking](https://arxiv.org/abs/1806.02877)
-  * [Exploiting Visual Artifacts to Expose Deepfakes and Face Manipulations](https://ieeexplore.ieee.org/document/8638330)
-  * [Protecting World Leaders Against Deep Fakes](http://openaccess.thecvf.com/content_CVPRW_2019/papers/Media%20Forensics/Agarwal_Protecting_World_Leaders_Against_Deep_Fakes_CVPRW_2019_paper.pdf)
-
-* Binary Classifiers
-  * [Capsule-Forensics: Using Capsule Networks to Detect Forged Images and Videos](https://arxiv.org/abs/1810.11215)
-  * [FaceForensics++: Learning to Detect Manipulated Facial Images](https://arxiv.org/abs/1901.08971)
-  * [Deepfake Video Detection Using Recurrent Neural Networks](https://engineering.purdue.edu/~dgueraco/content/deepfake.pdf)
-
-* Generalization performance
-  * [Towards Generalizable Forgery Detection with Locality-aware AutoEncoder](https://arxiv.org/abs/1909.05999)
-  * [ForensicTransfer: Weakly-supervised Domain Adaptation for Forgery Detection](https://arxiv.org/abs/1812.02510)
-  * [Face X-ray for More General Face Forgery Detection](https://arxiv.org/abs/1912.13458)
-  * [On the generalization of GAN image forensics](https://arxiv.org/abs/1902.11153)
-  * [Fake Face Detection Methods: Can They Be Generalized?](https://ieeexplore.ieee.org/document/8553251)
-
-
-### Detection Codes
-* [Deepfake detection for the masses](https://github.com/Baukebrenninkmeijer/FakeFynder-Hackathon-for-Good-2019)
-* [Exposing DeepFake Videos By Detecting Face Warping Artifacts](https://github.com/danmohaha/CVPRW2019_Face_Artifacts)
-* [Vulnerability assessment and detection of Deepfake videos](https://gitlab.idiap.ch/bob/bob.report.deepfakes)
-
-
-
-
-
-
-
-### General Online Articles of Deepfakes
+### Online Articles of Deepfakes
 
 * [Deepfake: The Good, The Bad and the Ugly - Medium](https://medium.com/twentybn/deepfake-the-good-the-bad-and-the-ugly-8b261ecf0f52)
 * [DeepFakes: AI-powered deception machines](http://www.computervisionblog.com/2018/05/deepfakes-ai-powered-deception-machines.html)
@@ -87,23 +48,21 @@ It is worth pointing out the first type of videos and images are most well known
 * [Family fun with deepfakes. Or how I got my wife onto the Tonight Show - Towards Data Science](https://towardsdatascience.com/family-fun-with-deepfakes-or-how-i-got-my-wife-onto-the-tonight-show-a4454775c011)
 * [Deepfake propaganda is not a real problem - The Verge](https://www.theverge.com/2019/3/5/18251736/deepfake-propaganda-misinformation-troll-video-hoax)
 
+Deepfake Voices:
+* [You can now speak using someone else’s voice with Deep Learning](https://towardsdatascience.com/you-can-now-speak-using-someone-elses-voice-with-deep-learning-8be24368fa2b)
+* [A Voice Deepfake Was Used To Scam A CEO Out Of $243,000](https://www.forbes.com/sites/jessedamiani/2019/09/03/a-voice-deepfake-was-used-to-scam-a-ceo-out-of-243000/)
 
 
-
-
-
-
-
-## Deepfake Voices
-
-### Papers Mainly on Generation
+## Attack Generation 
+### Fake Audio Generation
+Papers:
 * [Tacotron: Towards End-to-End Speech Synthesis](https://arxiv.org/abs/1703.10135)
 * [Neural Voice Cloning with a Few Samples](https://arxiv.org/abs/1802.06006)
 * [Deep Voice 3: Scaling Text-to-Speech with Convolutional Sequence Learning](https://arxiv.org/abs/1710.07654)
 * [Deep Voice 3: Efficiently Trainable Text-to-Speech System Based on Deep Convolutional Networks with Guided Attention](https://arxiv.org/abs/1710.08969)
 
 
-### Codes Mainly on Generation
+Codes:
 * [deep-voice-conversion](https://github.com/andabi/deep-voice-conversion)
 * [Tacotron](https://github.com/keithito/tacotron)
 * [mimic2](https://github.com/MycroftAI/mimic2)
@@ -112,11 +71,36 @@ It is worth pointing out the first type of videos and images are most well known
 * [Real-Time Voice Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning)
 * [DeepFake Audio Detection](https://github.com/dessa-public/fake-voice-detection)
 
+## Defense
+
+### Deepfake Detection
+* Review and General Papers
+  * [Deep Learning for Deepfakes Creation and Detection](https://arxiv.org/abs/1909.11573)
+  * [DeepFakes and Beyond: A Survey of Face Manipulation and Fake Detection](https://arxiv.org/abs/2001.00179)
+  * [Media Forensics and DeepFakes: an overview](https://arxiv.org/abs/2001.06564)
+  * [Will Deepfakes Do Deep Damage?](https://cacm.acm.org/magazines/2020/1/241708-will-deepfakes-do-deep-damage/fulltext)
 
 
-### General Online Articles of Deepfake Voices
-* [You can now speak using someone else’s voice with Deep Learning](https://towardsdatascience.com/you-can-now-speak-using-someone-elses-voice-with-deep-learning-8be24368fa2b)
-* [A Voice Deepfake Was Used To Scam A CEO Out Of $243,000](https://www.forbes.com/sites/jessedamiani/2019/09/03/a-voice-deepfake-was-used-to-scam-a-ceo-out-of-243000/)
+* Relying on Artifacts
+
+
+* Generalization performance
+  * [Towards Generalizable Forgery Detection with Locality-aware AutoEncoder](https://arxiv.org/abs/1909.05999)
+  * [ForensicTransfer: Weakly-supervised Domain Adaptation for Forgery Detection](https://arxiv.org/abs/1812.02510)
+  * [Face X-ray for More General Face Forgery Detection](https://arxiv.org/abs/1912.13458)
+  * [On the generalization of GAN image forensics](https://arxiv.org/abs/1902.11153)
+  * [Fake Face Detection Methods: Can They Be Generalized?](https://ieeexplore.ieee.org/document/8553251)
+
+ Detection Codes:
+* [Deepfake detection for the masses](https://github.com/Baukebrenninkmeijer/FakeFynder-Hackathon-for-Good-2019)
+* [Exposing DeepFake Videos By Detecting Face Warping Artifacts](https://github.com/danmohaha/CVPRW2019_Face_Artifacts)
+* [Vulnerability assessment and detection of Deepfake videos](https://gitlab.idiap.ch/bob/bob.report.deepfakes)
+
+### Attacking Deepfake Generator
+
+
+
+
 
 
 
@@ -127,3 +111,6 @@ It is worth pointing out the first type of videos and images are most well known
 * [Deepfakes detection challenge by Facebook, Microsoft, etc.](https://ai.facebook.com/blog/deepfake-detection-challenge?from=timeline&isappinstalled=0)
 * [DeepfakeTIMIT](https://www.idiap.ch/dataset/deepfaketimit)
 * [Kaggle Deepfake Detection Challenge](https://www.kaggle.com/c/deepfake-detection-challenge/overview?utm_medium=email&utm_source=intercom&utm_campaign=deepfake-competition-2019)
+
+
+## Social Impacts
