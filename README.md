@@ -98,7 +98,7 @@ Codes:
 * [Vulnerability assessment and detection of Deepfake videos](https://gitlab.idiap.ch/bob/bob.report.deepfakes)
 
 ### Attacking Deepfake Generator
-
+pronounciation of numbers 
 
 
 
@@ -118,4 +118,6 @@ Codes:
 ### Enterprise Solutions
 * [Resemble AI](https://www.resemble.ai/andy-warhol/)
 Resemble AI is using three minutes audio for voice clone
+
 Bank voice verification
+
