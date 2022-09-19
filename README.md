@@ -29,6 +29,7 @@ It is worth pointing out the first type of videos and images are most well known
   * [Attacking Deepfake Generator](#attacking-deepfake-generator)
 * [Datasets and Challenges](#datasets-and-challenges)
 * [Social Impacts](#social-impacts)
+  * [Enterprise Solutions](#enterprise-solutions)
   * [Government Responses](#government-responses)
   * [Potential Threatened Scenarios](#potential-threatened-scenarios)
   
@@ -114,3 +115,5 @@ Codes:
 
 
 ## Social Impacts
+### Enterprise Solutions
+* [Resemble AI](https://www.resemble.ai/andy-warhol/)
