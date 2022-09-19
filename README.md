@@ -38,6 +38,8 @@ It is worth pointing out the first type of videos and images are most well known
 ## Introduction
 
 ### Key Concepts
+Voice Conversion: modify the speech of a source speaker and output speech sound like that of another target speaker without changing the original linguistic information.
+Voice Clone: 
 
 ### General Architecture
 
