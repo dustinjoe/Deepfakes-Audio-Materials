@@ -38,7 +38,10 @@ It is worth pointing out the first type of videos and images are most well known
 ## Introduction
 
 ### Key Concepts
+Voice Verification: an innovative biometric technology that allows you to use your unique voiceprint to access your accounts when you call Wells Fargo. Voice Verification is simple because it makes your voice your password (https://www.wellsfargo.com/privacy-security/voice-verification/).
+
 Voice Conversion: modify the speech of a source speaker and output speech sound like that of another target speaker without changing the original linguistic information.
+
 Voice Clone: 
 
 ### General Architecture
@@ -121,5 +124,10 @@ pronounciation of numbers
 * [Resemble AI](https://www.resemble.ai/andy-warhol/)
 Resemble AI is using three minutes audio for voice clone
 
-Bank voice verification
 
+### Government Responses
+
+
+### Potential Threatened Scenarios
+
+Bank voice verification
