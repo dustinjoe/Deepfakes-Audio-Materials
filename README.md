@@ -119,12 +119,14 @@ pronounciation of numbers
 
 ## Social Impacts
 ### Enterprise Solutions
-* [Resemble AI](https://www.resemble.ai/andy-warhol/)
-Resemble AI is using three minutes audio for voice clone
+* Resemble AI(https://www.resemble.ai/andy-warhol/)
+Resemble AI is a startup that is using three minutes audio for voice clone
 
 
 ### Government Responses
-
+* FBI Warning (https://www.ic3.gov/Media/Y2022/PSA220628)   Deepfakes and Stolen PII Utilized to Apply for Remote Work Positions
+* DHS Report (https://www.dhs.gov/sites/default/files/publications/increasing_threats_of_deepfake_identities_0.pdf)  Department of Homeland Security provides a comprehensive report on the topic of deepfake threats
+* DARPA MediFor Program (https://www.darpa.mil/program/media-forensics)  DARPA’s Media Forensics program (MediFor) builds algorithms to detect manipulated images or videos.(this seems to mainly relevant to visual media of images and videos not relevant to audios directly)
 
 ### Potential Threatened Scenarios
 
