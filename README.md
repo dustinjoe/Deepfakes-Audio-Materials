@@ -112,11 +112,9 @@ pronounciation of numbers
 
 ## Datasets and Challenges
 
-* [FaceForensics++](https://github.com/ondyari/FaceForensics)
-* [Celeb-DF](http://www.cs.albany.edu/~lsw/celeb-deepfakeforensics.html)
-* [Deepfakes detection challenge by Facebook, Microsoft, etc.](https://ai.facebook.com/blog/deepfake-detection-challenge?from=timeline&isappinstalled=0)
-* [DeepfakeTIMIT](https://www.idiap.ch/dataset/deepfaketimit)
-* [Kaggle Deepfake Detection Challenge](https://www.kaggle.com/c/deepfake-detection-challenge/overview?utm_medium=email&utm_source=intercom&utm_campaign=deepfake-competition-2019)
+* ASVProof Challenge (https://www.asvspoof.org/)  ASVProof Challenge: a contest for fake audo-based attack detection that has been held for several times
+* ICASSP ADD 2022 (https://arxiv.org/abs/2202.08433) ICASSP ADD 2022: the first audio deep synthesis detection challenge
+* Kaggle Deepfake Detection Challenge (https://www.kaggle.com/c/deepfake-detection-challenge/overview?utm_medium=email&utm_source=intercom&utm_campaign=deepfake-competition-2019)  this contest was conducted in 2019, it is mainly focused on deepfake video detection, however, its dataset includes some modified audio parts
 
 
 ## Social Impacts
