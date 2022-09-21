@@ -59,7 +59,10 @@ Deepfake Voices:
 * [A Voice Deepfake Was Used To Scam A CEO Out Of $243,000](https://www.forbes.com/sites/jessedamiani/2019/09/03/a-voice-deepfake-was-used-to-scam-a-ceo-out-of-243000/)
 
 
-## Attack Generation 
+## Attack Generation
+Even though 
+pronounciation of numbers 
+
 ### Fake Audio Generation
 Papers:
 * [Tacotron: Towards End-to-End Speech Synthesis](https://arxiv.org/abs/1703.10135)
@@ -103,7 +106,11 @@ Codes:
 * [Vulnerability assessment and detection of Deepfake videos](https://gitlab.idiap.ch/bob/bob.report.deepfakes)
 
 ### Attacking Deepfake Generator
-pronounciation of numbers 
+* Defending Against Deepfakes Using Adversarial Attacks on Conditional Image Translation Networks 
+[Paper](https://arxiv.org/abs/2003.01279)
+[Code](https://github.com/natanielruiz/disrupting-deepfakes)
+
+
 
 
 
@@ -114,7 +121,9 @@ pronounciation of numbers
 
 * ASVProof Challenge (https://www.asvspoof.org/)  ASVProof Challenge: a contest for fake audo-based attack detection that has been held for several times
 * ICASSP ADD 2022 (https://arxiv.org/abs/2202.08433) ICASSP ADD 2022: the first audio deep synthesis detection challenge
+* Voice Privacy Challenge (https://www.voiceprivacychallenge.org) VoicePrivacy: develop anonymisation and pseudonymisation solutions which suppress personally identifiable information while preserving linguistic content and speech quality/naturalness
 * Kaggle Deepfake Detection Challenge (https://www.kaggle.com/c/deepfake-detection-challenge/overview?utm_medium=email&utm_source=intercom&utm_campaign=deepfake-competition-2019)  this contest was conducted in 2019, it is mainly focused on deepfake video detection, however, its dataset includes some modified audio parts
+* CSIG Contest(http://fmfcc.net/#introduction)  Chinese audio deepfake contest
 
 
 ## Social Impacts
