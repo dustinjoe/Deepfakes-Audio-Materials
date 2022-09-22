@@ -23,10 +23,10 @@ It is worth pointing out the first type of videos and images are most well known
   * [Online Articles of Deepfakes](#online-articles-of-deepfakes)
 * [Attack Generation](#attack-generation)
   * [Fake Audio Generation](#fake-audio-generation)
-  * [Relevant Tools](#relevant-tools)
+  * [Relevant Code and Tools](#relevant-code-and-tools)
 * [Defense](#defense)
   * [Deepfake Detection](#deepfake-detection)
-  * [Attacking Deepfake Generator](#attacking-deepfake-generator)
+  * [Defensive Audio Processing](#defensive-audio-processing)
 * [Datasets and Challenges](#datasets-and-challenges)
 * [Social Impacts](#social-impacts)
   * [Enterprise Solutions](#enterprise-solutions)
@@ -42,7 +42,7 @@ Voice Verification: an innovative biometric technology that allows you to use yo
 
 Voice Conversion: modify the speech of a source speaker and output speech sound like that of another target speaker without changing the original linguistic information.
 
-Voice Clone: 
+Voice Clone: it is interchangeable with the above word of 'voice conversion' in many cases. But you can also more strictly say it is an area in voice conversion that simply aiming to copy a target's voice without merging it with a source voice.
 
 ### General Architecture
 
@@ -71,14 +71,17 @@ Papers:
 * [Deep Voice 3: Efficiently Trainable Text-to-Speech System Based on Deep Convolutional Networks with Guided Attention](https://arxiv.org/abs/1710.08969)
 
 
-Codes:
+
+### Relevant Code and Tools
+* Coqui-TTS (https://github.com/coqui-ai/tts). 
+* Real-Time-Voice-Cloning (https://github.com/CorentinJ/Real-Time-Voice-Cloning) Even though this tool seems to be the one on Github with the highest number of stars, the project itself has been archived because the development team is migrating to a startup of ResembleAI(https://www.resemble.ai/). 
+Video intro from author: https://www.youtube.com/watch?v=-O_hYhToKoA.
+* Tacotron 2 (https://github.com/NVIDIA/tacotron2). Voice Clone Tutorial: https://www.youtube.com/watch?v=b1fzyM0VhhI
 * [deep-voice-conversion](https://github.com/andabi/deep-voice-conversion)
-* [Tacotron](https://github.com/keithito/tacotron)
-* [mimic2](https://github.com/MycroftAI/mimic2)
-* [Neural Voice Cloning with Few Samples](https://github.com/Sharad24/Neural-Voice-Cloning-with-Few-Samples)
-* [Deepvoice3_pytorch](https://github.com/r9y9/deepvoice3_pytorch)
-* [Real-Time Voice Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning)
-* [DeepFake Audio Detection](https://github.com/dessa-public/fake-voice-detection)
+* Tacotron (https://github.com/keithito/tacotron)
+* MyCroftAI Mimic2  (https://github.com/MycroftAI/mimic2)
+* Neural Voice Cloning with Few Samples. (https://github.com/Sharad24/Neural-Voice-Cloning-with-Few-Samples)
+* Deepvoice3_pytorch. (https://github.com/r9y9/deepvoice3_pytorch)
 
 ## Defense
 
@@ -90,9 +93,6 @@ Codes:
   * [Will Deepfakes Do Deep Damage?](https://cacm.acm.org/magazines/2020/1/241708-will-deepfakes-do-deep-damage/fulltext)
 
 
-* Relying on Artifacts
-
-
 * Generalization performance
   * [Towards Generalizable Forgery Detection with Locality-aware AutoEncoder](https://arxiv.org/abs/1909.05999)
   * [ForensicTransfer: Weakly-supervised Domain Adaptation for Forgery Detection](https://arxiv.org/abs/1812.02510)
@@ -101,11 +101,11 @@ Codes:
   * [Fake Face Detection Methods: Can They Be Generalized?](https://ieeexplore.ieee.org/document/8553251)
 
  Detection Codes:
-* [Deepfake detection for the masses](https://github.com/Baukebrenninkmeijer/FakeFynder-Hackathon-for-Good-2019)
-* [Exposing DeepFake Videos By Detecting Face Warping Artifacts](https://github.com/danmohaha/CVPRW2019_Face_Artifacts)
-* [Vulnerability assessment and detection of Deepfake videos](https://gitlab.idiap.ch/bob/bob.report.deepfakes)
+* [DeepFake Audio Detection](https://github.com/dessa-public/fake-voice-detection)
+* 
 
-### Attacking Deepfake Generator
+### Defensive Audio Processing
+Attacking Deepfake Generator
 * Defending Against Deepfakes Using Adversarial Attacks on Conditional Image Translation Networks 
 [Paper](https://arxiv.org/abs/2003.01279)
 [Code](https://github.com/natanielruiz/disrupting-deepfakes)
@@ -130,7 +130,12 @@ Codes:
 ### Enterprise Solutions
 * Resemble AI(https://www.resemble.ai/andy-warhol/)
 Resemble AI is a startup that is using three minutes audio for voice clone
-
+* Descript Overdub (https://www.descript.com/overdub)  
+There is an online review for its voice clone function here: https://www.youtube.com/watch?v=H_SVsTOZHeM
+* Respeecher (https://www.respeecher.com/) 
+Speaking in the voice of Obama (Voice cloning): https://www.youtube.com/watch?v=t5yw5cR79VA
+* Altered Studio (www.altered.ai)
+Demo video: https://www.youtube.com/watch?v=-plK4bL2-2E
 
 ### Government Responses
 * FBI Warning (https://www.ic3.gov/Media/Y2022/PSA220628)   Deepfakes and Stolen PII Utilized to Apply for Remote Work Positions
