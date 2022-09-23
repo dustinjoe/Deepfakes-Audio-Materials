@@ -38,13 +38,23 @@ It is worth pointing out the first type of videos and images are most well known
 ## Introduction
 
 ### Key Concepts
-Voice Verification: an innovative biometric technology that allows you to use your unique voiceprint to access your accounts when you call Wells Fargo. Voice Verification is simple because it makes your voice your password (https://www.wellsfargo.com/privacy-security/voice-verification/).
+Voice Verification: an innovative biometric technology that allows you to use your unique voiceprint to access your accounts when you call Wells Fargo. Voice Verification is simple because it makes your voice your password (https://www.wellsfargo.com/privacy-security/voice-verification/). Verification outputs a binary result of whether the voice belongs to the speaker of not. If you need to know exactly who the speaker is, that would refer to the concept of 'voice identification'.
 
-Voice Conversion: modify the speech of a source speaker and output speech sound like that of another target speaker without changing the original linguistic information.
+Voice Conversion: modify the speech of a source speaker and output speech sound like that of another target speaker without changing the original linguistic information. Oh you can simply regard it as a style transfer on audio.
 
 Voice Clone: it is interchangeable with the above word of 'voice conversion' in many cases. But you can also more strictly say it is an area in voice conversion that simply aiming to copy a target's voice without merging it with a source voice.
 
+
+
 ### General Architecture
+For the task of fake audio generation especially deepfake audio generation, there are three main type of models involved (definitions are extracted from this paper [Who Are You (I Really Wanna Know)? Detecting Audio {DeepFakes} Through Vocal Tract Reconstruction](https://www.usenix.org/system/files/sec22fall_blue.pdf)):
+
+(1) Encoder: The encoder learns the unique representation of the speaker’s voice, known as the speaker embedding. The embedding is derived from a short utterance using the target speaker’s voice. The accuracy of the embedding can be increased by giving the
+encoder more utterances, with diminishing returns. The output embedding from the encoder stage can be then passed as an input into the following synthesizer stage.
+
+(2) Synthesizer: A synthesizer generates a Mel Spectrogram from a given text and the speaker embedding. A Mel Spectrogram is a spectrogram that has its frequencies scaled using the Mel scale, which is designed to model audio perception of the human ear. Some synthesizers can produce spectrograms solely from a sequence of characters or phonemes like [Tacotron](https://arxiv.org/pdf/1703.10135.pdf%EF%BC%89).
+
+(3) Vocoder: The vocoder converts the Mel Spectrogram to retrieve the corresponding audio waveform. This newly generated audio waveform will ideally sound like a target individual uttering a specific sentence. A commonly used vocoder model is some variation of [WaveNet](https://arxiv.org/pdf/1609.03499.pdf), which uses a deep convolutional neural network that uses surrounding contextual information to generate its waveform.
 
 ### Online Articles of Deepfakes
 
@@ -123,7 +133,7 @@ Attacking Deepfake Generator
 * ICASSP ADD 2022 (https://arxiv.org/abs/2202.08433) ICASSP ADD 2022: the first audio deep synthesis detection challenge
 * Voice Privacy Challenge (https://www.voiceprivacychallenge.org) VoicePrivacy: develop anonymisation and pseudonymisation solutions which suppress personally identifiable information while preserving linguistic content and speech quality/naturalness
 * Kaggle Deepfake Detection Challenge (https://www.kaggle.com/c/deepfake-detection-challenge/overview?utm_medium=email&utm_source=intercom&utm_campaign=deepfake-competition-2019)  this contest was conducted in 2019, it is mainly focused on deepfake video detection, however, its dataset includes some modified audio parts
-* CSIG Contest(http://fmfcc.net/#introduction)  Chinese audio deepfake contest
+* CSIG Contest(http://fmfcc.net/#introduction)  Chinese audio deepfake contest. They provide a reference list of tools they use for dataset generation: http://fmfcc.net/contest-introduction
 
 
 ## Social Impacts
