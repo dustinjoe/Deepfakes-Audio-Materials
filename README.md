@@ -1,6 +1,7 @@
 # Selected-Deepfakes-Audio-Materials [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A curated, but probably biased and incomplete, list of awesome Deepfakes resources specially selected for audios.
+Even though this is a selected collection that cannot cover all relevant materials, we are trying to make this repo more self-contained.
 
 This collection is enlightened by the work of a general deepfake material collection from (https://github.com/datamllab/awesome-deepfakes-materials).
 As both deep learning and deepfakes are evolving fast these days, feel like it would be somehow helpful to create a separate repo here to collect materials on Deepfake audios.
@@ -103,7 +104,9 @@ Video intro from author: https://www.youtube.com/watch?v=-O_hYhToKoA.
 ## Defense
 
 ### Stay Alert In-Person
-Even though the development of deepfake audio is fast, the realistic loss is usually not caused by the sole fake audio alone. Generally speaking, currently generated audio clips seeking voice clone are still distinguishable from the following aspects:
+Even though the development of deepfake audio is fast, the realistic loss is usually not caused by the sole fake audio alone. 
+In current research of fake audio detection, one natural metric is Mean Opinion Score([MOS](https://en.wikipedia.org/wiki/Mean_opinion_score)) by people themselves.
+Generally speaking, currently generated audio clips seeking voice clone are still distinguishable from the following aspects:
 * Inconsistent sentences
 * Plain or sudden varying tone in speech
 * Phrasing – consider the habit of the speaker
