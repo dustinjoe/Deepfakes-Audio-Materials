@@ -69,9 +69,10 @@ Deepfake Voices:
 * [A Voice Deepfake Was Used To Scam A CEO Out Of $243,000](https://www.forbes.com/sites/jessedamiani/2019/09/03/a-voice-deepfake-was-used-to-scam-a-ceo-out-of-243000/)
 
 
-## Attack Generation
+## Attack
 Even though 
 pronounciation of numbers 
+Typical types of audio attacks (definition extracted from [ASVProof Challenge](http://www.asvspoof.org/)):
 
 ### Fake Audio Generation
 Papers:
@@ -94,6 +95,15 @@ Video intro from author: https://www.youtube.com/watch?v=-O_hYhToKoA.
 * Deepvoice3_pytorch. (https://github.com/r9y9/deepvoice3_pytorch)
 
 ## Defense
+
+### Stay Alert In-Person
+Even though the development of deepfake audio is fast, the realistic loss is usually not caused by the sole fake audio alone. Generally speaking, currently generated audio clips seeking voice clone are still distinguishable from the following aspects:
+* Inconsistent sentences
+* Plain or sudden varying tone in speech
+* Phrasing – consider the habit of the speaker
+* Context of speech – Is it really the discussion topic that should be conducted?
+
+The most important point is to hold a [Zero-Trust Ideology](https://en.wikipedia.org/wiki/Zero_trust_security_model) for sensitive cases: always be alert, always verify!
 
 ### Deepfake Detection
 * Review and General Papers
@@ -130,7 +140,7 @@ Attacking Deepfake Generator
 ## Datasets and Challenges
 
 * ASVProof Challenge (https://www.asvspoof.org/)  ASVProof Challenge: a contest for fake audo-based attack detection that has been held for several times
-* ICASSP ADD 2022 (https://arxiv.org/abs/2202.08433) ICASSP ADD 2022: the first audio deep synthesis detection challenge
+* ICASSP ADD 2022 (https://arxiv.org/abs/2202.08433) ICASSP ADD 2022: the first audio deep synthesis detection challenge(madarin language dataset)
 * Voice Privacy Challenge (https://www.voiceprivacychallenge.org) VoicePrivacy: develop anonymisation and pseudonymisation solutions which suppress personally identifiable information while preserving linguistic content and speech quality/naturalness
 * Kaggle Deepfake Detection Challenge (https://www.kaggle.com/c/deepfake-detection-challenge/overview?utm_medium=email&utm_source=intercom&utm_campaign=deepfake-competition-2019)  this contest was conducted in 2019, it is mainly focused on deepfake video detection, however, its dataset includes some modified audio parts
 * CSIG Contest(http://fmfcc.net/#introduction)  Chinese audio deepfake contest. They provide a reference list of tools they use for dataset generation: http://fmfcc.net/contest-introduction
@@ -149,7 +159,7 @@ Demo video: https://www.youtube.com/watch?v=-plK4bL2-2E
 
 ### Government Responses
 * FBI Warning (https://www.ic3.gov/Media/Y2022/PSA220628)   Deepfakes and Stolen PII Utilized to Apply for Remote Work Positions
-* DHS Report (https://www.dhs.gov/sites/default/files/publications/increasing_threats_of_deepfake_identities_0.pdf)  Department of Homeland Security provides a comprehensive report on the topic of deepfake threats
+* DHS Report (https://www.dhs.gov/sites/default/files/publications/increasing_threats_of_deepfake_identities_0.pdf)  Department of Homeland Security provides a comprehensive report on the topic of deepfake threats. A relevant report: https://datasociety.net/library/deepfakes-and-cheap-fakes/
 * DARPA MediFor Program (https://www.darpa.mil/program/media-forensics)  DARPA’s Media Forensics program (MediFor) builds algorithms to detect manipulated images or videos.(this seems to mainly relevant to visual media of images and videos not relevant to audios directly)
 
 ### Potential Threatened Scenarios
