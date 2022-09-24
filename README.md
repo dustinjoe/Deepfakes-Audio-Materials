@@ -70,9 +70,15 @@ Deepfake Voices:
 
 
 ## Attack
+
+Typical types of audio attacks (definition extracted from [ASVProof Challenge](https://www.asvspoof.org/asvspoof2021/asvspoof2021_evaluation_plan.pdf)):
+* Logical Access (LA): bona fide and spoofed utterances generated using text-to-speech (TTS) and voice conversion (VC) algorithms are communicated across telephony and VoIP networks with various coding and transmission effects;
+* Physical Access (PA): bona fide utterances are made in a real, physical space in which spoofing attacks are captured and then replayed within the same physical space using replay devices of varying quality;
+* Speech Deepfake (DF): a fake audio detection task comprising bona fide and spoofed utterances generated using TTS and VC algorithms. Similar to the LA task (includes compressed data) but without speaker verification.
+
 Even though 
 pronounciation of numbers 
-Typical types of audio attacks (definition extracted from [ASVProof Challenge](http://www.asvspoof.org/)):
+
 
 ### Fake Audio Generation
 Papers:
