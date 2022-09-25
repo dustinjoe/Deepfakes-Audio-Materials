@@ -57,6 +57,8 @@ encoder more utterances, with diminishing returns. The output embedding from the
 
 (3) Vocoder: The vocoder converts the Mel Spectrogram to retrieve the corresponding audio waveform. This newly generated audio waveform will ideally sound like a target individual uttering a specific sentence. A commonly used vocoder model is some variation of [WaveNet](https://arxiv.org/pdf/1609.03499.pdf), which uses a deep convolutional neural network that uses surrounding contextual information to generate its waveform.
 
+
+
 ### Online Articles of Deepfakes
 
 * [Deepfake: The Good, The Bad and the Ugly - Medium](https://medium.com/twentybn/deepfake-the-good-the-bad-and-the-ugly-8b261ecf0f52)
@@ -71,17 +73,22 @@ Deepfake Voices:
 
 
 ## Attack
-
+Even though we are focused on DeepFake audio attacks, it is worth pointing out audio based attacks can be more flexible.
 Typical types of audio attacks (definition extracted from [ASVProof Challenge](https://www.asvspoof.org/asvspoof2021/asvspoof2021_evaluation_plan.pdf)):
 * Logical Access (LA): bona fide and spoofed utterances generated using text-to-speech (TTS) and voice conversion (VC) algorithms are communicated across telephony and VoIP networks with various coding and transmission effects;
 * Physical Access (PA): bona fide utterances are made in a real, physical space in which spoofing attacks are captured and then replayed within the same physical space using replay devices of varying quality;
 * Speech Deepfake (DF): a fake audio detection task comprising bona fide and spoofed utterances generated using TTS and VC algorithms. Similar to the LA task (includes compressed data) but without speaker verification.
 
-Even though 
+The LA and PA tasks are based on classical setting of automatic speaker verification (ASV).
+In AVSProof contests, the metric for these two tasks will be the minimum tandem decision cost function (mint-DCF) . 
+The new DF task has a fake media / fake audio / deepfake flavour in which there is no ASV system. The metric for the DF condition will revert to the equal error rate (EER).
+ 
 pronounciation of numbers 
 
 
-### Fake Audio Generation
+### DeepFake Audio Generation
+
+
 Papers:
 * [Tacotron: Towards End-to-End Speech Synthesis](https://arxiv.org/abs/1703.10135)
 * [Neural Voice Cloning with a Few Samples](https://arxiv.org/abs/1802.06006)
