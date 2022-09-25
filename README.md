@@ -90,8 +90,8 @@ Typical types of audio attacks (definition extracted from [ASVProof Challenge](h
 * Speech Deepfake (DF): a fake audio detection task comprising bona fide and spoofed utterances generated using TTS and VC algorithms. Similar to the LA task (includes compressed data) but without speaker verification.
 
 The LA and PA tasks are based on classical setting of automatic speaker verification (ASV).
-In AVSProof contests, the metric for these two tasks will be the minimum tandem decision cost function (mint-DCF) . 
-The new DF task has a fake media / fake audio / deepfake flavour in which there is no ASV system. The metric for the DF condition will revert to the equal error rate (EER).
+In AVSProof contests, the metric for these two tasks will be the minimum tandem decision cost function (min t-DCF details can be in the doc link above) . 
+The new DF task has a fake media / fake audio / deepfake flavour in which there is no ASV system. The metric for the DF condition will revert to the equal error rate (EER). EER is the point when the false acceptance rate and false rejection rate are equal.
  
 pronounciation of numbers 
 
