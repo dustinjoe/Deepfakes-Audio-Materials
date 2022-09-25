@@ -57,7 +57,17 @@ encoder more utterances, with diminishing returns. The output embedding from the
 
 (3) Vocoder: The vocoder converts the Mel Spectrogram to retrieve the corresponding audio waveform. This newly generated audio waveform will ideally sound like a target individual uttering a specific sentence. A commonly used vocoder model is some variation of [WaveNet](https://arxiv.org/pdf/1609.03499.pdf), which uses a deep convolutional neural network that uses surrounding contextual information to generate its waveform.
 
+There is a good figure that illustrates two technique paths for deepfake voice clone generation from paper [Neural Voice Cloning with a Few Samples](https://arxiv.org/abs/1802.06006). We attach it here to further explain this process.
 
+![Two Technique Paths for DeepFake Voice Clone](twoClonePath.png)
+
+From this same paper, we get ideas of these two paths:
+
+(1) The idea of the speaker adaptation is to fine-tune a trained multi-speaker model for an unseen speaker using a few audio-text pairs. Fine-tuning can be applied to either the speaker embedding or the whole model.
+
+(2) The idea of the speaker encoding method is to directly estimate the speaker embedding from audio samples of an unseen speaker. Such a model does not require any fine-tuning during voice cloning. Thus, the same model can be used for all unseen speakers.
+
+Typically, speaker adaptation can achieve better performance than speaker encoding especially when more data samples can be used for the model tuning step. But the computation cost of speaker encoding is much lower because it does not need any further model tuning.
 
 ### Online Articles of Deepfakes
 
