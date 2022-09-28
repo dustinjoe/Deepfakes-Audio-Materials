@@ -109,7 +109,7 @@ Papers:
 
 ### Relevant Code and Tools
 * Coqui-TTS (https://github.com/coqui-ai/tts). 
-* Real-Time-Voice-Cloning (https://github.com/CorentinJ/Real-Time-Voice-Cloning) Even though this tool seems to be the one on Github with the highest number of stars, the project itself has been archived because the development team is migrating to a startup of ResembleAI(https://www.resemble.ai/). 
+* Real-Time-Voice-Cloning (https://github.com/CorentinJ/Real-Time-Voice-Cloning) Even though this tool seems to be the one on Github with the highest number of stars, the project itself has been archived because the development team is migrating to a startup of ResembleAI(https://www.resemble.ai/). However, this the simplest voice clone tool worth a trial(https://www.youtube.com/watch?v=1WN8Jhfd4uM).
 Video intro from author: https://www.youtube.com/watch?v=-O_hYhToKoA.
 * Tacotron 2 (https://github.com/NVIDIA/tacotron2). Voice Clone Tutorial: https://www.youtube.com/watch?v=b1fzyM0VhhI
 * [deep-voice-conversion](https://github.com/andabi/deep-voice-conversion)
