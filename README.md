@@ -132,23 +132,23 @@ Generally speaking, currently generated audio clips seeking voice clone are stil
 The most important point is to hold a [Zero-Trust Ideology](https://en.wikipedia.org/wiki/Zero_trust_security_model) for sensitive cases: always be alert, always verify!
 
 ### Deepfake Detection
-* Review and General Papers
-  Deep Learning for Deepfakes Creation and Detection (https://arxiv.org/abs/1909.11573)
-  DeepFakes and Beyond: A Survey of Face Manipulation and Fake Detection (https://arxiv.org/abs/2001.00179)
-  Media Forensics and DeepFakes: an overview (https://arxiv.org/abs/2001.06564)
-  Will Deepfakes Do Deep Damage? (https://cacm.acm.org/magazines/2020/1/241708-will-deepfakes-do-deep-damage/fulltext)
+#### Review and General Papers:  
+* Deep Learning for Deepfakes Creation and Detection (https://arxiv.org/abs/1909.11573).   
+* DeepFakes and Beyond: A Survey of Face Manipulation and Fake Detection (https://arxiv.org/abs/2001.00179)  
+* Media Forensics and DeepFakes: an overview (https://arxiv.org/abs/2001.06564).   
+* Will Deepfakes Do Deep Damage? (https://cacm.acm.org/magazines/2020/1/241708-will-deepfakes-do-deep-damage/fulltext). 
 
-* Detector Design
+#### Detector Design:   
 
 
 ### Defensive Audio Processing
-* Attacking Deepfake Generator
-Defending Against Deepfakes Using Adversarial Attacks on Conditional Image Translation Networks 
+#### Attacking Deepfake Generator:  
+* Defending Against Deepfakes Using Adversarial Attacks on Conditional Image Translation Networks 
 [Paper](https://arxiv.org/abs/2003.01279)
 [Code](https://github.com/natanielruiz/disrupting-deepfakes)
 
-* Anomynization
-Language-Independent Speaker Anonymization Approach using Self-Supervised Pre-Trained Models
+#### Anomynization:  
+* Language-Independent Speaker Anonymization Approach using Self-Supervised Pre-Trained Models
 [Paper](https://arxiv.org/abs/2202.13097)
 [Code](https://github.com/nii-yamagishilab/SSL-SAS)
 
