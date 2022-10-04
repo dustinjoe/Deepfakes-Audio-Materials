@@ -112,7 +112,7 @@ Papers:
 * Real-Time-Voice-Cloning (https://github.com/CorentinJ/Real-Time-Voice-Cloning) Even though this tool seems to be the one on Github with the highest number of stars, the project itself has been archived because the development team is migrating to a startup of ResembleAI(https://www.resemble.ai/). However, this the simplest voice clone tool worth a trial(https://www.youtube.com/watch?v=1WN8Jhfd4uM).
 Video intro from author: https://www.youtube.com/watch?v=-O_hYhToKoA.
 * Tacotron 2 (https://github.com/NVIDIA/tacotron2). Voice Clone Tutorial: https://www.youtube.com/watch?v=b1fzyM0VhhI
-* [deep-voice-conversion](https://github.com/andabi/deep-voice-conversion)
+* deep-voice-conversion (https://github.com/andabi/deep-voice-conversion)
 * Tacotron (https://github.com/keithito/tacotron)
 * MyCroftAI Mimic2  (https://github.com/MycroftAI/mimic2)
 * Neural Voice Cloning with Few Samples. (https://github.com/Sharad24/Neural-Voice-Cloning-with-Few-Samples)
@@ -133,31 +133,24 @@ The most important point is to hold a [Zero-Trust Ideology](https://en.wikipedia
 
 ### Deepfake Detection
 * Review and General Papers
-  * [Deep Learning for Deepfakes Creation and Detection](https://arxiv.org/abs/1909.11573)
-  * [DeepFakes and Beyond: A Survey of Face Manipulation and Fake Detection](https://arxiv.org/abs/2001.00179)
-  * [Media Forensics and DeepFakes: an overview](https://arxiv.org/abs/2001.06564)
-  * [Will Deepfakes Do Deep Damage?](https://cacm.acm.org/magazines/2020/1/241708-will-deepfakes-do-deep-damage/fulltext)
+  Deep Learning for Deepfakes Creation and Detection (https://arxiv.org/abs/1909.11573)
+  DeepFakes and Beyond: A Survey of Face Manipulation and Fake Detection (https://arxiv.org/abs/2001.00179)
+  Media Forensics and DeepFakes: an overview (https://arxiv.org/abs/2001.06564)
+  Will Deepfakes Do Deep Damage? (https://cacm.acm.org/magazines/2020/1/241708-will-deepfakes-do-deep-damage/fulltext)
 
+* Detector Design
 
-* Generalization performance
-  * [Towards Generalizable Forgery Detection with Locality-aware AutoEncoder](https://arxiv.org/abs/1909.05999)
-  * [ForensicTransfer: Weakly-supervised Domain Adaptation for Forgery Detection](https://arxiv.org/abs/1812.02510)
-  * [Face X-ray for More General Face Forgery Detection](https://arxiv.org/abs/1912.13458)
-  * [On the generalization of GAN image forensics](https://arxiv.org/abs/1902.11153)
-  * [Fake Face Detection Methods: Can They Be Generalized?](https://ieeexplore.ieee.org/document/8553251)
-
- Detection Codes:
-* [DeepFake Audio Detection](https://github.com/dessa-public/fake-voice-detection)
-* 
 
 ### Defensive Audio Processing
-Attacking Deepfake Generator
-* Defending Against Deepfakes Using Adversarial Attacks on Conditional Image Translation Networks 
+* Attacking Deepfake Generator
+Defending Against Deepfakes Using Adversarial Attacks on Conditional Image Translation Networks 
 [Paper](https://arxiv.org/abs/2003.01279)
 [Code](https://github.com/natanielruiz/disrupting-deepfakes)
 
-
-
+* Anomynization
+Language-Independent Speaker Anonymization Approach using Self-Supervised Pre-Trained Models
+[Paper](https://arxiv.org/abs/2202.13097)
+[Code](https://github.com/nii-yamagishilab/SSL-SAS)
 
 
 
@@ -175,7 +168,7 @@ Attacking Deepfake Generator
 ## Social Impacts
 ### Enterprise Solutions
 * Resemble AI(https://www.resemble.ai/andy-warhol/)
-Resemble AI is a startup that is using three minutes audio for voice clone
+Resemble AI is a startup that is using three minutes audio for voice clone. They stem from the dev team of the Real-Time-Voice-Clone toolbox mentioned above. One interesting feature they introduce is the emotion masks that can be applied to the generated voice: https://www.youtube.com/watch?v=cXtgdsWw1xI
 * Descript Overdub (https://www.descript.com/overdub)  
 There is an online review for its voice clone function here: https://www.youtube.com/watch?v=H_SVsTOZHeM
 * Respeecher (https://www.respeecher.com/) 
