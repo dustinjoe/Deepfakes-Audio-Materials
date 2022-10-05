@@ -140,6 +140,7 @@ The most important point is to hold a [Zero-Trust Ideology](https://en.wikipedia
 * Tutorials/Papers from  NII Yamagishi Lab team. (https://nii-yamagishilab.github.io/, http://tonywangx.github.io/slide.html)
 
 #### Detector Design:   
+* FastAudio: A Learnable Audio Front-End for Spoof Speech Detection. \[[Paper](https://arxiv.org/pdf/2109.02774v1.pdf)\]\[[Code](https://github.com/magnumresearchgroup/Fastaudio)\]
 * An Initial Investigation for Detecting Partially Spoofed Audio. [Paper](https://www.isca-speech.org/archive/interspeech_2021/zhang21ca_interspeech.html)
 
 ### Defensive Audio Processing
