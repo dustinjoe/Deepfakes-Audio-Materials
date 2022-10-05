@@ -39,7 +39,7 @@ It is worth pointing out the first type of videos and images are most well known
 ## Introduction
 
 ### Key Concepts
-Voice Verification: an innovative biometric technology that allows you to use your unique voiceprint to access your accounts when you call Wells Fargo. Voice Verification is simple because it makes your voice your password (https://www.wellsfargo.com/privacy-security/voice-verification/). Verification outputs a binary result of whether the voice belongs to the speaker of not. If you need to know exactly who the speaker is, that would refer to the concept of 'voice identification'.
+Voice Verification: the biometric technology that allows you to use your unique voiceprint to access your accounts when you access your services like bank accounts. Voice Verification is simple because it makes your voice your password (https://www.wellsfargo.com/privacy-security/voice-verification/). Verification outputs a binary result of whether the voice belongs to the speaker of not. If you need to know exactly who the speaker is, that would refer to the concept of 'voice identification'.
 
 Voice Conversion: modify the speech of a source speaker and output speech sound like that of another target speaker without changing the original linguistic information. Oh you can simply regard it as a style transfer on audio.
 
@@ -100,11 +100,11 @@ pronounciation of numbers
 
 
 Papers:
-* [Tacotron: Towards End-to-End Speech Synthesis](https://arxiv.org/abs/1703.10135)
-* [Neural Voice Cloning with a Few Samples](https://arxiv.org/abs/1802.06006)
-* [Deep Voice 3: Scaling Text-to-Speech with Convolutional Sequence Learning](https://arxiv.org/abs/1710.07654)
-* [Deep Voice 3: Efficiently Trainable Text-to-Speech System Based on Deep Convolutional Networks with Guided Attention](https://arxiv.org/abs/1710.08969)
-
+* Tacotron: Towards End-to-End Speech Synthesis. \[[Paper](https://arxiv.org/abs/1703.10135)\]
+* Neural Voice Cloning with a Few Samples. \[[Paper](https://arxiv.org/abs/1802.06006)\]
+* Deep Voice 3: Scaling Text-to-Speech with Convolutional Sequence Learning. \[[Paper](https://arxiv.org/abs/1710.07654)\]
+* Deep Voice 3: Efficiently Trainable Text-to-Speech System Based on Deep Convolutional Networks with Guided Attention. \[[Paper](https://arxiv.org/abs/1710.08969)\]
+* A unified system for voice cloning and voice conversion through diffusion probabilistic modeling. \[[Paper](https://diff-vc-vcl.github.io/)\] \[[Demo](https://diff-vc-vcl.github.io/)\]
 
 
 ### Relevant Code and Tools
@@ -137,20 +137,21 @@ The most important point is to hold a [Zero-Trust Ideology](https://en.wikipedia
 * DeepFakes and Beyond: A Survey of Face Manipulation and Fake Detection (https://arxiv.org/abs/2001.00179)  
 * Media Forensics and DeepFakes: an overview (https://arxiv.org/abs/2001.06564).   
 * Will Deepfakes Do Deep Damage? (https://cacm.acm.org/magazines/2020/1/241708-will-deepfakes-do-deep-damage/fulltext). 
+* Tutorials/Papers from  NII Yamagishi Lab team. (https://nii-yamagishilab.github.io/, http://tonywangx.github.io/slide.html)
 
 #### Detector Design:   
-
+* An Initial Investigation for Detecting Partially Spoofed Audio. [Paper](https://www.isca-speech.org/archive/interspeech_2021/zhang21ca_interspeech.html)
 
 ### Defensive Audio Processing
 #### Attacking Deepfake Generator:  
-* Defending Against Deepfakes Using Adversarial Attacks on Conditional Image Translation Networks 
-[Paper](https://arxiv.org/abs/2003.01279)
-[Code](https://github.com/natanielruiz/disrupting-deepfakes)
+* Defending Against Deepfakes Using Adversarial Attacks on Conditional Image Translation Networks.    
+\[[Paper](https://arxiv.org/abs/2003.01279)\]
+\[[Code](https://github.com/natanielruiz/disrupting-deepfakes)\]
 
 #### Anomynization:  
-* Language-Independent Speaker Anonymization Approach using Self-Supervised Pre-Trained Models
-[Paper](https://arxiv.org/abs/2202.13097)
-[Code](https://github.com/nii-yamagishilab/SSL-SAS)
+* Language-Independent Speaker Anonymization Approach using Self-Supervised Pre-Trained Models. 
+\[[Paper](https://arxiv.org/abs/2202.13097)\]
+\[[Code](https://github.com/nii-yamagishilab/SSL-SAS)\]
 
 
 
