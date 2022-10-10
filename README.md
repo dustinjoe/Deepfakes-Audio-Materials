@@ -80,7 +80,7 @@ Typically, speaker adaptation can achieve better performance than speaker encodi
 Deepfake Voices:
 * [You can now speak using someone else’s voice with Deep Learning](https://towardsdatascience.com/you-can-now-speak-using-someone-elses-voice-with-deep-learning-8be24368fa2b)
 * [A Voice Deepfake Was Used To Scam A CEO Out Of $243,000](https://www.forbes.com/sites/jessedamiani/2019/09/03/a-voice-deepfake-was-used-to-scam-a-ceo-out-of-243000/)
-
+* [Voice cloning technology may have been used in Pearland scam](https://www.khou.com/article/news/local/pearland-father-daughter-voice-cloning-scam/285-1a7b0e9b-ccca-488c-afff-04dcec0d1e77)
 
 ## Attack
 Even though we are focused on DeepFake audio attacks, it is worth pointing out audio based attacks can be more flexible.
@@ -140,8 +140,14 @@ The most important point is to hold a [Zero-Trust Ideology](https://en.wikipedia
 * Tutorials/Papers from  NII Yamagishi Lab team. (https://nii-yamagishilab.github.io/, http://tonywangx.github.io/slide.html)
 
 #### Detector Design:   
-* FastAudio: A Learnable Audio Front-End for Spoof Speech Detection. \[[Paper](https://arxiv.org/pdf/2109.02774v1.pdf)\]\[[Code](https://github.com/magnumresearchgroup/Fastaudio)\]
-* An Initial Investigation for Detecting Partially Spoofed Audio. [Paper](https://www.isca-speech.org/archive/interspeech_2021/zhang21ca_interspeech.html)
+* FastAudio: A Learnable Audio Front-End for Spoof Speech Detection. 
+\[[Paper](https://arxiv.org/pdf/2109.02774v1.pdf)\]
+\[[Code](https://github.com/magnumresearchgroup/Fastaudio)\]
+* Complementing Handcrafted Features with Raw Waveform Using a Light-weight Auxiliary Model. 
+\[[Paper](https://arxiv.org/abs/2109.02773)\]
+\[[Code](https://github.com/magnumresearchgroup/AuxiliaryRawNet)\]
+* An Initial Investigation for Detecting Partially Spoofed Audio. 
+\[[Paper](https://www.isca-speech.org/archive/interspeech_2021/zhang21ca_interspeech.html)\]
 
 ### Defensive Audio Processing
 #### Attacking Deepfake Generator:  
