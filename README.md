@@ -184,6 +184,9 @@ There is an online review for its voice clone function here: https://www.youtube
 Speaking in the voice of Obama (Voice cloning): https://www.youtube.com/watch?v=t5yw5cR79VA
 * Altered Studio (www.altered.ai)
 Demo video: https://www.youtube.com/watch?v=-plK4bL2-2E
+* ID R&D(https://www.idrnd.ai/voice-anti-spoofing/) 
+Speech conversion, replay attacks, and TTS create certain signal artifacts that are sometimes indistinguishable by a human ear. ID R&D algorithms try to find and identify such artifacts to determine liveness of the sound source.
+
 
 ### Government Responses
 * FBI Warning (https://www.ic3.gov/Media/Y2022/PSA220628)   Deepfakes and Stolen PII Utilized to Apply for Remote Work Positions
@@ -192,4 +195,6 @@ Demo video: https://www.youtube.com/watch?v=-plK4bL2-2E
 
 ### Potential Threatened Scenarios
 
-Bank voice verification
+* Bank voice verification
+* Scamming calls
+* Fake news generation
