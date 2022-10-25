@@ -176,6 +176,7 @@ The most important point is to hold a [Zero-Trust Ideology](https://en.wikipedia
 
 ## Social Impacts
 ### Enterprise Solutions
+We observe an enormous development in AI applications in audio scenarios. There are many startups coming out in this area. We include some of them below. Please note some of them are still in Beta stage so they do not have official products released yet. We are only making a selected collection here to show the current status. We don't have any financial relationship with these companies.
 * Resemble AI(https://www.resemble.ai/andy-warhol/)
 Resemble AI is a startup that is using three minutes audio for voice clone. They stem from the dev team of the Real-Time-Voice-Clone toolbox mentioned above. One interesting feature they introduce is the emotion masks that can be applied to the generated voice: https://www.youtube.com/watch?v=cXtgdsWw1xI
 * Descript Overdub (https://www.descript.com/overdub)  
@@ -184,6 +185,10 @@ There is an online review for its voice clone function here: https://www.youtube
 Speaking in the voice of Obama (Voice cloning): https://www.youtube.com/watch?v=t5yw5cR79VA
 * Altered Studio (www.altered.ai)
 Demo video: https://www.youtube.com/watch?v=-plK4bL2-2E
+* Voice.AI (https://voice.ai/)
+Demo video: https://www.youtube.com/watch?v=r5ljaht4Qso
+* VoiceMod (https://www.voicemod.net/)
+Demo video: https://www.youtube.com/watch?v=yUZ64EXYvO4
 * ID R&D(https://www.idrnd.ai/voice-anti-spoofing/) 
 Speech conversion, replay attacks, and TTS create certain signal artifacts that are sometimes indistinguishable by a human ear. ID R&D algorithms try to find and identify such artifacts to determine liveness of the sound source.
 
