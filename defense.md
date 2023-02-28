@@ -31,14 +31,18 @@ Humans and deepfake detection algorithms share similar strengths and weaknesses,
 #### Fake Audio Detection
 bona fide vs spoofed
 ##### Detector Design:   
-
+* END-TO-END ANTI-SPOOFING WITH RAWNET2
+\[[Paper](https://arxiv.org/pdf/2011.01108.pdf)\]
+\[[Code](https://github.com/eurecom-asp/rawnet2-antispoofing)\] \
+This work reports the first application of RawNet2 to anti-spoofing. RawNet2 ingests raw audio and has potential to learn cues that are not detectable using more traditional countermeasure solutions.
 * FastAudio: A Learnable Audio Front-End for Spoof Speech Detection. 
 \[[Paper](https://arxiv.org/pdf/2109.02774v1.pdf)\]
 \[[Code](https://github.com/magnumresearchgroup/Fastaudio)\]
 * Complementing Handcrafted Features with Raw Waveform Using a Light-weight Auxiliary Model. 
 \[[Paper](https://arxiv.org/abs/2109.02773)\]
-\[[Code](https://github.com/magnumresearchgroup/AuxiliaryRawNet)\]
-\
+\[[Code](https://github.com/magnumresearchgroup/AuxiliaryRawNet)\] \
+This work proposes an Auxiliary Rawnet model to complement handcrafted features with features learned from raw waveforms. The combination of rawnet encoder and the classifical DSP based encoder makes the overall model trainable front end and good performance on ASVSpoof19 LA data.
+
 ##### Potential Issues
 * Does Audio Deepfake Detection Generalize?
 \[[Paper](https://arxiv.org/pdf/2203.16263.pdf)\]
@@ -58,7 +62,12 @@ Adversarial machine learning can potentially help to identify the weakest parts 
 Although AML on audio tasks has been under research for several years, it has just been added to ASVSpoof in 2023.
 * Characterizing the Fusion Strategies for Spoofing-Aware Speaker Verification
 \[[Paper](https://sasv-challenge.github.io/pdfs/2022_descriptions/CUHK-NTU.pdf)\] \
-Propose a novel multi-model and multi-level fusion strategy to tackle the SASV task from SASV 2022 Challenge mentioned above. Compared with purely scoring fusion and embedding fusion methods, this framework first utilizes embeddings from CM models, propagating CM embeddings into a CM block to obtain a CM score. In the second-level fusion, CM score and ASV scores directly from ASV systems will be concatenated into a prediction block for the final decision. A similar work is SA-SASV: An End-to-End Spoof-Aggregated Spoofing-Aware Speaker Verification System (https://arxiv.org/pdf/2203.06517.pdf).
+Propose a novel multi-model and multi-level fusion strategy to tackle the SASV task from SASV 2022 Challenge mentioned above. Compared with purely scoring fusion and embedding fusion methods, this framework first utilizes embeddings from CM models, propagating CM embeddings into a CM block to obtain a CM score. In the second-level fusion, CM score and ASV scores directly from ASV systems will be concatenated into a prediction block for the final decision. A similar work is, SA-SASV: An End-to-End Spoof-Aggregated Spoofing-Aware Speaker Verification System (https://arxiv.org/pdf/2203.06517.pdf). Also this one, A Probabilistic Fusion Framework for Spoofing Aware Speaker Verification (https://arxiv.org/pdf/2202.05253.pdf).
+* Investigating self-supervised front ends for speech spoofing countermeasures
+\[[Paper](https://arxiv.org/pdf/2111.07725.pdf)\]
+\[[Code](https://github.com/nii-yamagishilab/project-NN-Pytorch-scripts)\]
+\[[Video](https://www.youtube.com/watch?v=X4XxddA10xo)\] \
+Use of self-supervised models as the front end of speech spoofing CMs. Through experiments on benchmark datasets, we observed that a self-supervised front end pre-trained using diverse speech data performed quite well when it is fixed and combined with a conventional LCNNLSTM back end. More notable improvement is achieved when the front end is fine-tuned for the anti-spoofing task. This work aims to prove the generlization of detections across data.
 
 #### Defensive Audio Processing
 ##### Attacking Deepfake Generator:  
