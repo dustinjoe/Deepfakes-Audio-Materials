@@ -19,7 +19,7 @@ A summary of the ASVspoof 2021 challenge and the results of 37 participating tea
 DF task, new to the 2021 edition, targets solutions to the detection of manipulated, compressed speech data posted online. While detection solutions offer some resilience to compression effects, they lack generalization across different source datasets.
 * A Practical Guide to Logical Access Voice Presentation Attack Detection
 \[[Paper](https://arxiv.org/pdf/2201.03321.pdf)\] \
-It introduces the basic concept of voice PAD, explains the common techniques, and provides an experimental study using recent methods on a benchmark dataset. 
+It introduces the basic concept of voice PAD, explains the common techniques, and provides an experimental study using recent methods on a benchmark dataset. This is a comprehensive review paper on fake audio detection topic. It provoides a systematic comparison of methods in the past 10 years and how these methods are evolving. This paper also discussed some background knowledge so it can serve as a tutorial on this topic.
 * Tutorials/Papers from  NII Yamagishi Lab team. (https://nii-yamagishilab.github.io/, http://tonywangx.github.io/slide.html)
 
 #### Human vs AI
@@ -27,6 +27,10 @@ It introduces the basic concept of voice PAD, explains the common techniques, an
 \[[Paper](https://arxiv.org/abs/2107.09667)\]
 \[[TestSite](https://deepfake-demo.aisec.fraunhofer.de/)\] \
 Humans and deepfake detection algorithms share similar strengths and weaknesses, both struggling to detect certain types of attacks. This is in contrast to the superhuman performance of AI in many application areas such as object detection or face recognition. Concerning human success factors, we find that IT professionals have no advantage over non-professionals but native speakers have an advantage over non-native speakers. Additionally, we find that older participants tend to be more susceptible than younger ones. 
+* Warning: Humans Cannot Reliably Detect Speech Deepfakes
+\[[Paper](https://arxiv.org/pdf/2301.07829)\]
+This paper presented genuine and deepfake audio to n = 529 individuals and asked them to identify the deepfakes. Experiments are run in English and Mandarin to understand if language affects detection performance and decision-making rationale. Detection capability is unreliable. Listeners only correctly spotted the deepfakes 73% of the time, and there was no
+difference in detectability between the two languages. Increasing listener awareness by providing examples of speech deepfakes only improves results slightly. The difficulty of detecting speech deepfakes confirms their potential for misuse and signals that defenses against this threat are needed.
 
 #### Fake Audio Detection
 bona fide vs spoofed
