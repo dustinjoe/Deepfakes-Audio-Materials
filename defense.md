@@ -31,6 +31,10 @@ Humans and deepfake detection algorithms share similar strengths and weaknesses,
 #### Fake Audio Detection
 bona fide vs spoofed
 ##### Detector Design:   
+* STC Antispoofing Systems for the ASVspoof2019 Challenge
+\[[Paper](https://arxiv.org/pdf/1904.05576.pdf)\]
+\[[Code](https://github.com/ozora-ogino/LCNN)\] \
+This work reports the application of LightCNN architecture for general ASVSpoof 19 LA section. It is a continuing work of their LightCNN work on PA section in the previous ASVSpoof 17 contest in the paper, Audio replay attack detection with deep learning frameworks \[[Paper](https://www.researchgate.net/profile/Galina-Lavrentyeva/publication/319185301_Audio_Replay_Attack_Detection_with_Deep_Learning_Frameworks/links/59bf9e1fa6fdcca8e56fa179/Audio-Replay-Attack-Detection-with-Deep-Learning-Frameworks.pdf)\]. This should be a milestone of deep learning usage for antispoofing in audio area.
 * END-TO-END ANTI-SPOOFING WITH RAWNET2
 \[[Paper](https://arxiv.org/pdf/2011.01108.pdf)\]
 \[[Code](https://github.com/eurecom-asp/rawnet2-antispoofing)\] \
