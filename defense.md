@@ -72,6 +72,9 @@ Although AML on audio tasks has been under research for several years, it has ju
 * Characterizing the Fusion Strategies for Spoofing-Aware Speaker Verification
 \[[Paper](https://sasv-challenge.github.io/pdfs/2022_descriptions/CUHK-NTU.pdf)\] \
 Propose a novel multi-model and multi-level fusion strategy to tackle the SASV task from SASV 2022 Challenge mentioned above. Compared with purely scoring fusion and embedding fusion methods, this framework first utilizes embeddings from CM models, propagating CM embeddings into a CM block to obtain a CM score. In the second-level fusion, CM score and ASV scores directly from ASV systems will be concatenated into a prediction block for the final decision. A similar work is, SA-SASV: An End-to-End Spoof-Aggregated Spoofing-Aware Speaker Verification System (https://arxiv.org/pdf/2203.06517.pdf). Also this one, A Probabilistic Fusion Framework for Spoofing Aware Speaker Verification (https://arxiv.org/pdf/2202.05253.pdf).
+* The DKU-OPPO System for the 2022 Spoofing-Aware Speaker Verification Challenge
+\[[Paper](https://arxiv.org/pdf/2207.07510.pdf)\] \
+This is the 2nd place winner for the 2022 SASV Challenge. They show their solution in the paper above. The first place winner is IDVoice from a company solution from IDR&D (https://www.idrnd.ai/idvoice-verified-voice-biometrics-and-anti-spoofing/). So this should be the paper for the highest ranking solution for this problem setting with exposed information.
 * Investigating self-supervised front ends for speech spoofing countermeasures
 \[[Paper](https://arxiv.org/pdf/2111.07725.pdf)\]
 \[[Code](https://github.com/nii-yamagishilab/project-NN-Pytorch-scripts)\]
