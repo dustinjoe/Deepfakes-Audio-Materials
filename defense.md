@@ -32,6 +32,7 @@ Humans and deepfake detection algorithms share similar strengths and weaknesses,
 This paper presented genuine and deepfake audio to n = 529 individuals and asked them to identify the deepfakes. Experiments are run in English and Mandarin to understand if language affects detection performance and decision-making rationale. Detection capability is unreliable. Listeners only correctly spotted the deepfakes 73% of the time, and there was no
 difference in detectability between the two languages. Increasing listener awareness by providing examples of speech deepfakes only improves results slightly. The difficulty of detecting speech deepfakes confirms their potential for misuse and signals that defenses against this threat are needed.
 
+
 #### Fake Audio Detection
 bona fide vs spoofed
 ##### Detector Design:   
