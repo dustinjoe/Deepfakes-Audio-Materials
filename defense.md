@@ -34,10 +34,10 @@ difference in detectability between the two languages. Increasing listener aware
 
 
 #### Fake Audio Detection
-bona fide vs spoofed
+bona fide (benign) vs spoofed (synthetic)
 ##### Detector Design:   
 * A Comparison of Features for Synthetic Speech Detection
-\[[Paper](https://erepo.uef.fi/bitstream/handle/123456789/4371/sahidullah_comparison_2015.pdf?sequence=1&isAllowed=y)\]
+\[[Paper](https://erepo.uef.fi/bitstream/handle/123456789/4371/sahidullah_comparison_2015.pdf?sequence=1&isAllowed=y)\] \
 This paper published in 2015 provides a comprehensive comparison of different methods on the antispoofing task using ASVSpoof2015 LA data. It shows the typical setting of detection system composing of a front-end feature extractor and a back-end classifier. At that time point, the methods it includes are still pre-deep-learning. The front-end part is a digital signal processing(DSP) based extractor. The back-end is a classification model built upon SVM or GMM.
 * STC Antispoofing Systems for the ASVspoof2019 Challenge
 \[[Paper](https://arxiv.org/pdf/1904.05576.pdf)\]
