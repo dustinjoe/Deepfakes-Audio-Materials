@@ -19,7 +19,7 @@ A summary of the ASVspoof 2021 challenge and the results of 37 participating tea
 DF task, new to the 2021 edition, targets solutions to the detection of manipulated, compressed speech data posted online. While detection solutions offer some resilience to compression effects, they lack generalization across different source datasets.
 * A Practical Guide to Logical Access Voice Presentation Attack Detection
 \[[Paper](https://arxiv.org/pdf/2201.03321.pdf)\] \
-It introduces the basic concept of voice PAD, explains the common techniques, and provides an experimental study using recent methods on a benchmark dataset. This is a comprehensive review paper on fake audio detection topic. It provoides a systematic comparison of methods in the past 10 years and how these methods are evolving. This paper also discussed some background knowledge so it can serve as a tutorial on this topic.
+It introduces the basic concept of voice PAD, explains the common techniques, and provides an experimental study using recent methods on a benchmark dataset. This is a comprehensive review paper on fake audio detection topic. It provoides a systematic comparison of methods in the past 10 years and how these methods are evolving. This paper also discussed some background knowledge so it can serve as a tutorial on this topic. A relevant review paper is this one, Introduction to Voice Presentation Attack Detection and Recent Advances (https://arxiv.org/abs/1901.01085).
 * Tutorials/Papers from  NII Yamagishi Lab team. (https://nii-yamagishilab.github.io/, http://tonywangx.github.io/slide.html)
 
 #### Human vs AI
