@@ -82,7 +82,7 @@ This is the 2nd place winner for the 2022 SASV Challenge. They show their soluti
 \[[Paper](https://arxiv.org/pdf/2111.07725.pdf)\]
 \[[Code](https://github.com/nii-yamagishilab/project-NN-Pytorch-scripts)\]
 \[[Video](https://www.youtube.com/watch?v=X4XxddA10xo)\] \
-Use of self-supervised models as the front end of speech spoofing CMs. Through experiments on benchmark datasets, we observed that a self-supervised front end pre-trained using diverse speech data performed quite well when it is fixed and combined with a conventional LCNNLSTM back end. More notable improvement is achieved when the front end is fine-tuned for the anti-spoofing task. This work aims to prove the generlization of detections across data.
+Use of self-supervised models as the front end of speech spoofing CMs. Through experiments on benchmark datasets, we observed that a self-supervised front end pre-trained using diverse speech data performed quite well when it is fixed and combined with a conventional LCNNLSTM back end. More notable improvement is achieved when the front end is fine-tuned for the anti-spoofing task. This work aims to prove the generlization of detections across data. A following work is this one, Automatic speaker verification spoofing and deepfake detection using wav2vec 2.0 and data augmentation (https://arxiv.org/pdf/2202.12233.pdf) and code(https://github.com/TakHemlata/SSL_Anti-spoofing)
 
 #### Defensive Audio Processing
 ##### Attacking Deepfake Generator:  
